@@ -11,7 +11,7 @@
 
 features <- read.table("features.txt", header=FALSE)
 ## reads in a 2x561 table with all variable names
-
+test merge
 xtest <- read.table("X_test.txt", header=FALSE, sep="")
 ## reads in the test (approx 30% of) data
 ## its dimensions are 2947x561
